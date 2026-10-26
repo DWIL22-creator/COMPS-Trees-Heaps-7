@@ -1,0 +1,24 @@
+1 - Why is a tree appropriate for the doctor structure?
+Answer: In the doctor structure, a tree is most appropriate because this is a top down process.
+The doctor structure represents the reporting hierarchy in the hospital.
+There are some doctors that are more professional experience than others, so we would want to reference the top doctor,
+which would be the doctor at the root, until we get to the very last doctor.
+For instance, a doctor at a higher level on the hierarchy may have the experience to aid a doctor on the lower hierarchy that's assisting a patient with medical advice or to walk them through a medical procedure.
+We also want to refrence each doctor or "DoctorNode" from left to right, because that's the order in which we would descent down the hierarchy in the hospital.
+I wouldn't just start from the top doctor and then go to the doctor and then go to the bottom most doctor.
+That wouldn't make sense unless I have just two doctors in my tree, which would be unrealistic.
+Also if some doctors, are not at work, we would want to the next ones up.
+
+
+2 - When might a software engineer use preorder, inorder, or postorder traversals?
+A software engineer may use these traversal strategies for file system and storage mapping.
+These remind me the most of a tree. They would start with the file name, and might descend into another file, and so on so forth.
+
+
+3 - How do heaps help simulate real-time systems like emergency intake?
+Heaps help to simulate real time systems because patients are helped based on urgency.
+A patient that needs a critical surgery would need to be helped more urgently than someone knee pain.
+Using the heap system also gives direct access to the top priority, while keeping the patient data sorted.
+Once the top patient is helped, the sytem looks at the patients based on the severity of their illness/injury, and helps the next patient with the most need.
+This is like patients sitting in a waiting room or a patient waiting to recieve care while they're in the hospital room.
+It takes time getting everyone the help they need, and hospitals must prioritize to save as many lives and mitigate effects of an issue before symptoms worsen or become deadly.
